@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.talent.SWApiTestRA1" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-09T12:44:38" hostname="DESKTOP-S7JV3ML" time="12.317">
+  <properties/>
+  <testcase name="requestAResourcesThenLinkReturn()" classname="com.talent.SWApiTestRA1" time="12.317"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://swapi.dev/api/films/?format=json
+Proxy:			<none>
+Request params:	<none>
+Query params:	format=json
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 405 METHOD NOT ALLOWED
+Server: nginx/1.16.1
+Date: Thu, 09 Sep 2021 12:44:44 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept, Cookie
+X-Frame-Options: SAMEORIGIN
+ETag: "06617ed6e3d11ac4083b49588eb38c86"
+Allow: GET, HEAD, OPTIONS
+
+{
+    "detail": "Method 'POST' not allowed."
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
